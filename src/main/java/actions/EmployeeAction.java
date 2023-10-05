@@ -127,7 +127,6 @@ public void create() throws ServletException, IOException {
         }
     }
 }
-
 /**
  * 詳細画面を表示する
  * @throws ServletException
