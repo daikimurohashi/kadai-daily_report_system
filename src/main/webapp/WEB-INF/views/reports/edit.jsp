@@ -18,4 +18,3 @@
         </p>
     </c:param>
 </c:import>
-動作確認
