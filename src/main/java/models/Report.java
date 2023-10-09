@@ -82,6 +82,12 @@ public class Report {
     @Column(name = JpaConst.REP_COL_CONTENT, nullable = false)
     private String content;
 
+    @Column(name=  JpaConst.REP_COL_WORKING_HOURS, nullable=true)
+    private String workingHours;
+
+    @Column(name=  JpaConst.REP_COL_CLOSING_TIME, nullable=true)
+    private String closingTime;
+
     /**
      * 登録日時
      */
